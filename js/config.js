@@ -36,15 +36,11 @@ class Config {
 			'a/': {
 				urlPrefix: 'https://amazon.com/s?k='	
 			},
-			'e/': {
-				urlPrefix: 'https://ebay.com/sch/?_nkw='
-			},
+		
 			'y/': {
 				urlPrefix: 'https://youtube.com/results?search_query='
 			},
-			'n/': {
-				urlPrefix: 'https://nhentai.net/g/'	
-			},
+			
 			'g/': {
 				urlPrefix: 'https://github.com/search?q='	
 			}
@@ -56,41 +52,19 @@ class Config {
 	getSearchEngines() {
 
 		const searchEngines = {
-			'startpage': {
-				name: 'Startpage',
-				prefix: 'https://www.startpage.com/do/dsearch?query=',
-				icon: 'startpage'
-			},
-			'qwant': {
-				name: 'Qwant',
-				prefix: 'https://www.qwant.com/?q=',
-				icon: 'qwant'
-			},
-			'ecosia': {
-				name: 'Ecosia',
-				prefix: 'https://www.ecosia.org/search?q=',
-				icon: 'ecosia'
-			},
+			
 			'duckduckgo': {
 				name: 'Duckduckgo',
 				prefix: 'https://duckduckgo.com/?q=',
 				icon: 'duckduckgo'
 			},
-			'yahoo': {
-				name: 'Yahoo',
-				prefix: 'https://search.yahoo.com/search?p=',
-				icon: 'yahoo'
-			},
+			
 			'google': {
 				name: 'Google',
 				prefix: 'https://www.google.com/search?q=',
 				icon: 'google'
 			},
-			'bing': {
-				name: 'Bing',
-				prefix: 'https://www.bing.com/search?q=',
-				icon: 'bing'
-			}
+			
 		};
 
 		return searchEngines;
@@ -136,12 +110,12 @@ class Config {
 				url: 'https://drive.google.com/',
 				category: 'cloud'
 			},
-			{
-				site: 'Twitter',
-				icon: 'twitter',
-				url: 'https://twitter.com/',
-				category: 'social'
-			},
+			// {
+			// 	site: 'Twitter',
+			// 	icon: 'twitter',
+			// 	url: 'https://twitter.com/',
+			// 	category: 'social'
+			// },
 			{
 				site: 'Instagram',
 				icon: 'instagram',
@@ -149,47 +123,36 @@ class Config {
 				category: 'social'
 			},
 			{
-				site: 'Bitbucket',
-				icon: 'bitbucket',
-				url: 'https://bitbucket.org/',
-				category: 'development'
-			},
-			{
-				site: 'Gitlab',
-				icon: 'gitlab',
-				url: 'https://gitlab.com/',
-				category: 'development'
-			},
-			{
-				site: 'Deviantart',
-				icon: 'deviantart',
-				url: 'https://deviantart.com/',
-				category: 'design'
-			},
+			// 	site: 'Bitbucket',
+			// 	icon: 'bitbucket',
+			// 	url: 'https://bitbucket.org/',
+			// 	category: 'development'
+			// },
+			// {
+			// 	site: 'Gitlab',
+			// 	icon: 'gitlab',
+			// 	url: 'https://gitlab.com/',
+			// 	category: 'development'
+			// },
 			{
 				site: 'Duckduckgo',
 				icon: 'duckduckgo',
 				url: 'https://duckduckgo.com/',
 				category: 'search engine'
 			},
-			{
-				site: 'Ecosia',
-				icon: 'ecosia',
-				url: 'https://ecosia.org/',
-				category: 'search engine'
-			},
+
 			{
 				site: 'Google',
 				icon: 'google',
 				url: 'https://google.com/',
 				category: 'search engine'
 			},
-			{
-				site: 'Wikipedia',
-				icon: 'wikipedia',
-				url: 'https://wikipedia.org/',
-				category: 'information'
-			},
+			// {
+			// 	site: 'Wikipedia',
+			// 	icon: 'wikipedia',
+			// 	url: 'https://wikipedia.org/',
+			// 	category: 'information'
+			// },
 			{
 				site: 'Unsplash',
 				icon: 'unsplash',
@@ -202,24 +165,12 @@ class Config {
 				url: 'https://twitch.tv/',
 				category: 'media'
 			},
-			{
-				site: 'Yahoo',
-				icon: 'yahoo',
-				url: 'https://mail.yahoo.com/',
-				category: 'search engine'
-			},
-			{
-				site: 'Bing',
-				icon: 'bing',
-				url: 'https://bing.com',
-				category: 'search engine'
-			},
-			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/',
-				category: 'design'
-			},
+			// {
+			// 	site: 'Material.io',
+			// 	icon: 'materialio',
+			// 	url: 'https://material.io/',
+			// 	category: 'design'
+			// },
 			{
 				site: 'Netflix',
 				icon: 'netflix',
@@ -232,12 +183,7 @@ class Config {
 				url: 'https://office.com/',
 				category: 'information'
 			},
-			{
-				site: '4chan',
-				icon: '4chan',
-				url: 'https://4chan.org/',
-				category: 'social'
-			},
+
 			{
 				site: 'Discord',
 				icon: 'discord',
@@ -250,30 +196,25 @@ class Config {
 				url: 'https://spotify.com/',
 				category: 'media'
 			},
-			{
-				site: 'Ebay',
-				icon: 'ebay',
-				url: 'https://ebay.com/',
-				category: 'shop'
-			},
+	
 			{
 				site: 'JSFiddle',
 				icon: 'jsfiddle',
 				url: 'https://jsfiddle.net/',
 				category: 'development'
 			},
-			{
-				site: 'ArchWiki',
-				icon: 'archwiki',
-				url: 'https://wiki.archlinux.org/',
-				category: 'information'
-			},
-			{
-				site: 'Figma',
-				icon: 'figma',
-				url: 'https://figma.com/',
-				category: 'design'
-			},
+			// {
+			// 	site: 'ArchWiki',
+			// 	icon: 'archwiki',
+			// 	url: 'https://wiki.archlinux.org/',
+			// 	category: 'information'
+			// },
+			// {
+			// 	site: 'Figma',
+			// 	icon: 'figma',
+			// 	url: 'https://figma.com/',
+			// 	category: 'design'
+			// },
 			{
 				site: 'Stackoverflow',
 				icon: 'stackoverflow',
@@ -310,24 +251,24 @@ class Config {
 				url: 'https://icons8.com/',
 				category: 'design'
 			},
-			{
-				site: 'Markdown Cheatsheet',
-				icon: 'markdown',
-				url: 'https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet/',
-				category: 'development'
-			},
+			// {
+			// 	site: 'Markdown Cheatsheet',
+			// 	icon: 'markdown',
+			// 	url: 'https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet/',
+			// 	category: 'development'
+			// },
 			{
 				site: 'Interneting is Hard',
 				icon: 'interneting-is-hard',
 				url: 'https://internetingishard.com/',
 				category: 'development'
 			},
-			{
-				site: 'Keycode',
-				icon: 'keycode',
-				url: 'https://keycode.info/',
-				category: 'development'
-			},
+			// {
+			// 	site: 'Keycode',
+			// 	icon: 'keycode',
+			// 	url: 'https://keycode.info/',
+			// 	category: 'development'
+			// },
 			{
 				site: 'Soundcloud',
 				icon: 'soundcloud',
@@ -337,7 +278,7 @@ class Config {
 			{
 				site: 'Amazon',
 				icon: 'amazon',
-				url: 'https://amazon.com/',
+				url: 'https://amazon.com.br/',
 				category: 'shop'
 			},
 			{
@@ -346,36 +287,18 @@ class Config {
 				url: 'https://flaticon.com/',
 				category: 'design'
 			},
-			{
-				site: 'Wikimedia Commons',
-				icon: 'commons',
-				url: 'https://commons.wikimedia.org/',
-				category: 'design'
-			},
+			// {
+			// 	site: 'Wikimedia Commons',
+			// 	icon: 'commons',
+			// 	url: 'https://commons.wikimedia.org/',
+			// 	category: 'design'
+			// },
 			{
 				site: 'MEGA',
 				icon: 'mega',
 				url: 'https://mega.nz/',
 				category: 'cloud'
 			},
-			{
-				site: 'MDN Web Docs',
-				icon: 'mdn',
-				url: 'https://developer.mozilla.org/',
-				category: 'development'
-			},
-			{
-				site: 'Qwant',
-				icon: 'qwant',
-				url: 'https://qwant.com/',
-				category: 'search engine'
-			},
-			{
-				site: 'Startpage',
-				icon: 'startpage',
-				url: 'https://startpage.com/',
-				category: 'search engine'
-			}
 		];
 
 		return webSites;
@@ -416,15 +339,11 @@ class Config {
 				url: 'https://drive.google.com/'
 			},
 			{
-				site: 'Twitter',
-				icon: 'twitter',
-				url: 'https://twitter.com/'
+				site: 'Twitch',
+				icon: 'twitch',
+				url: 'https://twitch.tv/'
 			},
-			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/'
-			}
+
 		];
 
 		return panelSites;
