@@ -122,7 +122,6 @@ class Config {
 				url: 'https://instagram.com/',
 				category: 'social'
 			},
-			{
 			// 	site: 'Bitbucket',
 			// 	icon: 'bitbucket',
 			// 	url: 'https://bitbucket.org/',
